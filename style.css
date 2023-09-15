@@ -1,0 +1,46 @@
+        /* Custom styles for indicators */
+        .carousel-indicators {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .carousel-indicator {
+            width: 100px; /* Adjust the width of the pagination images */
+            height: 65px; /* Adjust the height of the pagination images */
+            margin: 0 5px; /* Adjust the spacing between indicators */
+            cursor: pointer;
+        }
+
+        .carousel-indicator img {
+            width: 100%; /* Adjust the width of the pagination images */
+            height: 100%; /* Adjust the height of the pagination images */
+        }
+
+        .main-carousel {
+            width: 100%; /* Make the carousel take 100% width */
+        }
+
+        /* Center slide content */
+        .carousel-cell {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%; /* Ensure each slide takes 100% width */
+            transition: transform 0.3s; /* Add a smooth transition effect */
+        }
+
+        .carousel-cell img {
+            max-width: 100%; /* Ensure images don't exceed their container width */
+            transition: transform 0.3s; /* Add a smooth transition effect */
+        }
+
+        /* Zoom effect on hover */
+        .carousel-cell:hover {
+            transform: scale(1.2); 
+        }
+
+        .carousel-cell:hover img {
+            transform: scale(1.2); 
+        }
